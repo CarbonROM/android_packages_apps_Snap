@@ -3169,6 +3169,21 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
         String optizoomOn = mActivity.getString(R.string
                 .pref_camera_advanced_feature_value_optizoom_on);
 
+        // by default never disable touch focus
+        mTouchAfAecFlag = true;
+        // Set Touch AF/AEC parameter.
+        String touchAfAec = mPreferences.getString(
+                CameraSettings.KEY_TOUCH_AF_AEC,
+                mActivity.getString(R.string.pref_camera_touchafaec_default));
+        if (CameraUtil.isSupported(touchAfAec, mParameters.getSupportedTouchAfAec())) {
+            mCurrTouchAfAec = touchAfAec;
+            mParameters.setTouchAfAec(touchAfAec);
+            if(mParameters.getTouchAfAec().equals(mParameters.TOUCH_AF_AEC_ON))
+                mTouchAfAecFlag = true;
+            else
+                mTouchAfAecFlag = false;
+        }
+
         // Set Picture Format
         // Picture Formats specified in UI should be consistent with
         // PIXEL_FORMAT_JPEG and PIXEL_FORMAT_RAW constants

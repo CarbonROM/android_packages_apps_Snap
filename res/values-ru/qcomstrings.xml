@@ -562,7 +562,6 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Непрерывное видео</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Непрерывное изображение</string>
     <string name="pref_camera2_afmode_entry_edof">Расширенная глубина фокуса</string>
-    <string name="pref_camera2_switch_camera_title">Переключить камеру по ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Переключить камеру по ID</string>

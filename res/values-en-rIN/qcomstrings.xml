@@ -561,7 +561,6 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Continuous video</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Continuous picture</string>
     <string name="pref_camera2_afmode_entry_edof">Extended depth of focus</string>
-    <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>

@@ -560,7 +560,6 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Bideo jarraitua</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Argazki jarraitua</string>
     <string name="pref_camera2_afmode_entry_edof">Hedatu fokuaren sakonera</string>
-    <string name="pref_camera2_switch_camera_title">Txandakatu kamera ID-aren arabera</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Txandakatu kamera ID-aren arabera</string>

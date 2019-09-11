@@ -377,7 +377,6 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Fideo parhaus</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Llun parhaus</string>
     <string name="pref_camera2_afmode_entry_edof">Dyfnder ffocws estynedig</string>
-    <string name="pref_camera2_switch_camera_title">Newid camera gydag ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Newid camera gydag ID</string>

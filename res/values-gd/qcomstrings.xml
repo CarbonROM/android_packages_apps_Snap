@@ -217,7 +217,6 @@
     <string name="pref_camera2_bsgc_title">Mothachadh air fiamh-gàire/priobadh/amharc</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL bathair-bhog</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL bathair-chruaidh</string>
-    <string name="pref_camera2_switch_camera_title">Gearr leum gu camara a-rèir ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Gearr leum gu camara a-rèir ID</string>

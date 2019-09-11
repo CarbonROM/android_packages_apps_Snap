@@ -551,7 +551,6 @@
     <string name="pref_camera2_sharpness_control_entry_level2">Úroveň 2</string>
     <string name="pref_camera2_afmode_entry_disable">Vypnúť</string>
     <string name="pref_camera2_afmode_entry_off">Vypnutá</string>
-    <string name="pref_camera2_switch_camera_title">Prepínanie fotoaparátu pomocou ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_switch_camera_title">Prepínanie fotoaparátu pomocou ID</string>

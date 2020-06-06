@@ -559,6 +559,7 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Vídeo contínuo</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Imagem contínua</string>
     <string name="pref_camera2_afmode_entry_edof">Profundidade de foco estendida</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">Alterar câmara pelo ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -580,11 +581,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Estatísticas BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Estatísticas BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Estatísticas Hist</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
     <string name="pref_camera2_capture_mfnr_title">Redução de ruído multi-frame</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ativado</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Desativado</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Ativado</string>
     <string name="pref_camera2_fs2_entry_disable">Desativado</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ativado</string>
     <string name="pref_camera2_abort_captures_entry_disable">Desativado</string>
 </resources>

@@ -142,6 +142,7 @@
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="camera_disabled">Kameran har inaktiverats på grund av gällande säkerhetspolicyer.</string>
     <!-- message for the dialog showing that the app does not have sufficient permissions [CHAR LIMIT=NONE] -->
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
     <!-- Dialog "Dismiss" button. Closes the dialog [CHAR LIMIT=12]-->
     <string name="dialog_dismiss">Avvisa</string>
     <!-- alert to the user to wait for some operation to complete -->
@@ -173,6 +174,7 @@
         <item quantity="one">1 sekund</item>
         <item quantity="other">%d sekunder</item>
     </plurals>
+    <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
     <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 24]-->
     <string name="pref_camera_timer_sound_title">Ljudsignal under nedräkningen</string>
     <!-- Entry of camera save path -->
@@ -298,10 +300,13 @@
     <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
     <string name="not_selectable_in_scene_mode">Inte valbart i scenläget.</string>
     <!-- Toast after enable HDR function to inform Continuous Shot has disabled -->
+    <string name="HDR_disable_continuous_shot">HDR will disable continuous shot.</string>
     <!-- Toast after enable Advanced Capture function to inform Continuous Shot has disabled -->
+    <string name="advanced_capture_disable_continuous_shot">Advanced capture will disable continuous shot.</string>
     <!-- Toast after enable 2k4k video quality to inform IS has disabled -->
     <string name="video_quality_4k_disable_IS">4K video-kvalité kommer att stänga av bildstabilisering.</string>
     <!-- Toast after 2k4k video is enabled to inform SeeMore has been disabled -->
+    <string name="video_quality_4k_disable_SeeMore">SeeMore cannot be enabled during 4k video.</string>
     <!-- Toast after High Quality Noise Reduction has been enabled to show CDS is disabled -->
     <string name="disable_CDS_during_HighQualityNoiseReduction">Högkvalitativ brusreducering kommer att stänga av CDS.</string>
     <!-- Toast after High Quality Noise Reduction has been enabled to show TNR is disabled -->
@@ -317,7 +322,9 @@
     <!--  menu label exposure compensation [CHAR LIMIT=50] -->
     <string name="pref_exposure_label">EXPONERING</string>
     <!-- Default HDR entry value -->
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
     <!-- Default HDR+ entry value -->
+    <string name="pref_camera_hdr_plus_default">@string/setting_off_value</string>
     <!-- HDR label ON [CHAR LIMIT=60] -->
     <string name="pref_camera_hdr_label">HDR</string>
     <!-- switch camera label back [CHAR LIMIT=60] -->

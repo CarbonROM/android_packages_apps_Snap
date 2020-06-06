@@ -50,6 +50,7 @@
     <string name="pref_camera_audioencoder_title">Audiocodec</string>
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+    <string name="pref_camera_skinToneEnhancement_default">disable</string>
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <string name="pref_camera_skinToneEnhancement_title">Huidskleurverbetering</string>
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -78,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">ISO-prioriteit</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Belichtingstijd-prioriteit</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Gebruikersinstelling</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Gains priority</string>
     <string name="pref_camera_manual_exp_entry_off">Uit</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Handmatige witbalans</string>
@@ -178,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_title">Reeksopname met automatische belichtingscompensatie (AEB)</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Aan</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Off</string>
     <string name="err_app_unsupport_ae_bracket_code">Bracketing (AEB) wordt nog niet ondersteund</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Resolutie momentopname is kleiner dan die van de video. Momentopname wordt gemaakt ter grootte van de video. Kies een hogere of gelijke resolutie als de huidige videoresolutie.</string>
@@ -194,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Slow motion 90 fps</string>
     <string name="pref_camera_hfr_entry_4x">Slow motion 120 fps</string>
     <string name="pref_camera_hfr_entry_8x">Slow motion 240 fps</string>
+    <string name="pref_camera_hfr_entry_16x">Slow motion 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Hoge snelheid 60 fps</string>
     <string name="pref_camera_hfr_entry_hsr_90">Hoge snelheid 90 fps</string>
     <string name="pref_camera_hfr_entry_hsr_120">Hoge snelheid 120 fps</string>
     <string name="pref_camera_hfr_entry_hsr_240">Hoge snelheid 240 fps</string>
+    <string name="pref_camera_hfr_entry_hsr_480">High speed 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -449,8 +454,10 @@
     <string name="pref_camera2_trackingfocus_entry_on">Aan</string>
     <string name="pref_camera2_trackingfocus_entry_off">Uit</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Beste foto</string>
+    <string name="pref_camera_scenemode_entry_sharpshooter">Sharp photo</string>
     <string name="pref_camera_scenemode_entry_trackingfocus">Focus volgt object</string>
     <string name="pref_camera_scenemode_entry_panorama">Panorama</string>
+    <string name="pref_camera_scenemode_entry_promode">Pro mode</string>
     <string name="bestpicture_done">KLAAR</string>
     <string name="bestpicture_at_least_one_picture">Er moet ten minste één foto worden gekozen.</string>
     <string name="pref_camera2_shutter_sound_entry_on">Aan</string>
@@ -460,13 +467,35 @@
     <string name="pref_camera2_timer_entry_2sec">2 seconden</string>
     <string name="pref_camera2_timer_entry_5sec">5 seconden</string>
     <string name="pref_camera2_timer_entry_10sec">10 seconden</string>
+    <string name="pref_camera2_saveraw_title">Save with Raw format</string>
+    <string name="panocapture_direction_is_not_determined">Move constantly towards one direction.</string>
+    <string name="panocapture_intro">Press camera button to start.</string>
+    <string name="panocapture_direction_is_changed">Direction has changed, stopping panorama capture\u2026</string>
+    <string name="makeup_ui_title">Choose the strength of the beautification.</string>
     <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Versie-info</string>
     <string name="perf_camera2_preferences_category_general">Algemeen</string>
+    <string name="perf_camera2_preferences_category_photo">Still camera</string>
     <string name="perf_camera2_preferences_category_video">Videocamera</string>
     <string name="perf_camera2_preferences_category_system">Systeem</string>
+    <string name="pref_camera2_scene_mode_dual_camera_instructional_content">In dual camera mode, your pictures will be clearer. You can also apply background effects, by editing your dual camera pictures in the Gallery.</string>
+    <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">With UbiFocus, your camera will take five pictures and combine them into one picture, where everything is in focus. You can choose to re-focus, after you take the picture.</string>
+    <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Use OptiZoom when you want to zoom in for a clear picture. You can zoom before, or after taking the picture.</string>
+    <string name="pref_camera2_scene_mode_sports_instructional_content">Sports mode helps you take better sports or action shots.\n\nImproves your photos, but has no effect on video recording.</string>
+    <string name="pref_camera2_scene_mode_hdr_instructional_content">When you are in mixed lighting conditions such as low light and backlit scenes select \"HDR\" for best possible pictures.</string>
+    <string name="pref_camera2_scene_mode_best_photo_instructional_content">Allows you to take a burst of 10 photos, then you can choose the best one(s).</string>
+    <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">With ChromaFlash, the lighting in your flash photos will be optimized for all of the people and objects in your pictures. This feature applies only to the back camera.</string>
+    <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Sharp photo reduces blur that is due to motion in the scene, or due to hand motion.</string>
+    <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Allows you to track and focus a selected person or object while taking pictures or videos. To start, position the focus rectangle on a person or object you want to track.</string>
+    <string name="pref_camera2_scene_mode_time_lapse_instructional_content">With Time lapse, you can transform a long video recording into a few seconds of video. This effect applies to videos, but not photos.</string>
+    <string name="pref_camera2_scene_mode_panorama_instructional_content">Allows you to pan left or right to take a wide landscape photo. You can also pan up or down to take tall photos.</string>
+    <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster reduces blur from shaky hands. It can be helpful when taking photos in difficult places.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">With Pro mode, you can manually control settings for ISO, exposure, white balance, and focus. You will have easy access to all of these advanced settings.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">With DeepZoom mode, you can take a photo at 2x or 4x enhanced zoom.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">With DeepPortrait mode, you can take selfies with a blurred background. You can use the slider to adjust the amount of the blur.</string>
     <string name="pref_camera2_not_show_again">Niet opnieuw tonen</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
+    <string name="pref_camera2_instant_aec_title">Instant AEC</string>
     <string name="pref_camera2_instant_aec_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_instant_aec_entry_aggressive">Agressieve AEC</string>
     <string name="pref_camera2_instant_aec_entry_fast">Snelle AEC</string>
@@ -496,11 +525,15 @@
     <string name="pref_camera2_auto_hdr_title">Auto-HDR</string>
     <string name="pref_camera2_auto_hdr_entry_enable">Inschakelen</string>
     <string name="pref_camera2_auto_hdr_entry_disable">Uitschakelen</string>
+    <string name="pref_camera_bokeh_mode_title">Bokeh mode</string>
     <string name="pref_camera_bokeh_mode_entry_enable">Inschakelen</string>
     <string name="pref_camera_bokeh_mode_entry_disable">Uitschakelen</string>
+    <string name="pref_camera_bokeh_mpo_title">Bokeh mode MPO</string>
     <string name="pref_camera_bokeh_mpo_entry_enable">Inschakelen</string>
     <string name="pref_camera_bokeh_mpo_entry_disable">Uitschakelen</string>
+    <string name="pref_camera_bokeh_blur_degree_title">Bokeh blur value</string>
     <!-- Default Zoom setting. -->
+    <string name="pref_camera_zoom_title">Zoom</string>
     <!-- Settings menu, Zoom choices -->
     <string name="pref_camera_zoom_entry_off">Uit</string>
     <string name="pref_camera_zoom_entry_1x">1x</string>
@@ -513,27 +546,50 @@
     <string name="pref_camera_zoom_entry_8x">8x</string>
     <string name="pref_camera_zoom_entry_9x">9x</string>
     <string name="pref_camera_zoom_entry_10x">10x</string>
+    <string name="pref_camera2_bsgc_title">Smile/blink/gaze detection</string>
     <string name="pref_camera2_bsgc_entry_enable">Inschakelen</string>
     <string name="pref_camera2_bsgc_entry_disable">Uitschakelen</string>
     <string name="pref_camera2_zsl_title">Geen ontspanvertraging (ZSL)</string>
     <string name="pref_camera2_zsl_entry_disable">Uit</string>
+    <string name="pref_camera2_zsl_entry_app_zsl">Software ZSL</string>
+    <string name="pref_camera2_zsl_entry_hal_zsl">Hardware ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Encoder profile</string>
     <string name="pref_camera2_afmode_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_afmode_entry_off">Uit</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Continuous video</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Continuous picture</string>
+    <string name="pref_camera2_afmode_entry_edof">Extended depth of focus</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
+    <string name="pref_camera2_switch_camera_title">Switch camera by ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Monochroom</string>
     <string name="pref_camera2_initial_camera_entry_front">Voorzijde</string>
+    <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 and set when pause</string>
     <string name="pref_camera2_eis_entry_disable">Uitgeschakeld</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_fovc_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_video_hdr_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_video_hdr_entry_disable">Uitgeschakeld</string>
     <string name="pref_camera2_picture_format_title">Bestandsformaat</string>
+    <string name="pref_camera2_stats_visualizer_title">Statistics visualizer</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Hist statistics</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
+    <string name="pref_camera2_capture_mfnr_title">Multi-frame noise reduction</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Uitgeschakeld</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_fs2_entry_disable">Uitgeschakeld</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ingeschakeld</string>
     <string name="pref_camera2_abort_captures_entry_disable">Uitgeschakeld</string>
 </resources>

@@ -79,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">Prioritera ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">Prioritera exponeringstid</string>
     <string name="pref_camera_manual_exp_entry_user_setting">Användarinställning</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Gains priority</string>
     <string name="pref_camera_manual_exp_entry_off">Av</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">Manuell vitbalans</string>
@@ -91,6 +92,7 @@
     <string name="pref_camera_manual_focus_entry_diopter_mode">Dioptri läge</string>
     <string name="pref_camera_manual_focus_entry_off">Av</string>
     <!-- Instant Capture entry -->
+    <string name="pref_camera_instant_capture_title">Instant capture</string>
     <string name="pref_camera_instant_capture_entry_aggressive_aec">Aggressiv AEC</string>
     <string name="pref_camera_instant_capture_entry_fast_aec">Snabb AEC</string>
     <string name="pref_camera_instant_capture_entry_disable">Avaktivera</string>
@@ -179,9 +181,13 @@
     <string name="pref_camera_ae_bracket_hdr_title">Automatisk exponeringsvariation</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">På</string>
     <string name="pref_camera_ae_bracket_hdr_entry_off">Av</string>
+    <string name="err_app_unsupport_ae_bracket_code">AE bracketing is not supported yet</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
+    <string name="snapshot_lower_than_video">Video snapshot size is lower than video size, capping to video size. Please select a resolution higher or equal to the current video size.</string>
     <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
+    <string name="snapshotsize_low_powermode">Changing picture size is not supported in Low Power mode, video size snapshot will be taken. Please select Normal Power mode to allow changing picture size.</string>
     <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
+    <string name="snapshot_qcif_and_d1">Only video size snapshot is supported for this resolution.</string>
     <!-- Default hfr setting. Do not translate. -->
     <!-- Settings screen, Select hfr title -->
     <string name="pref_camera_hfr_title">Inspelning med hög framerate</string>
@@ -191,9 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">Slow Motion 90 FPS</string>
     <string name="pref_camera_hfr_entry_4x">Slow Motion 120 FPS</string>
     <string name="pref_camera_hfr_entry_8x">Slow Motion 240 FPS</string>
+    <string name="pref_camera_hfr_entry_16x">Slow motion 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">Höghastighet 60 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_90">Höghastighet 90 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_120">Höghastighet 120 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_240">High speed 240 FPS</string>
+    <string name="pref_camera_hfr_entry_hsr_480">High speed 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -357,6 +366,7 @@
     <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
     <string name="pref_camera_scenedetect_entry_on">På</string>
     <!-- Toast showing error if invalid size selected for  time lapse  [CHAR LIMIT=65] -->
+    <string name="time_lapse_error">Invalid video-size for time-lapse recording.</string>
     <!-- longshot value -->
     <string name="pref_camera_longshot_title">Kontinuerlig bildtagning</string>
     <string name="msg_cancel_longshot_for_limited_memory">Minnet håller på att ta slut, avbryter kontinuerlig bildtagning</string>
@@ -403,11 +413,13 @@
     <string name="pref_camera_tsmakeup_level_whiten">Bleka</string>
     <string name="pref_camera_tsmakeup_level_clean">Mjuka upp</string>
     <string name="text_tsmakeup_alert_title">Varning</string>
+    <string name="text_tsmakeup_alert_msg">Face detection must be enabled in order to use the beautification feature. Do you want to continue?</string>
     <string name="text_tsmakeup_alert_continue">Fortsätt</string>
     <string name="text_tsmakeup_alert_quit">Avbryt</string>
     <string name="text_tsmakeup_beautify_toast">Försköna</string>
     <string name="all_in_focus">Allt i fokus</string>
     <string name="refocus_toast">För att återfokusera senaste bilden, klicka här</string>
+    <string name="refocus_prompt_message">With UbiFocus, your camera will take 5 pictures, each time that you press the shutter button. The 5 pictures will be combined into 1 picture, where everything is in focus. You can choose to re-focus, after you take the picture.</string>
     <string name="camera_thermal_shutdown">Telefonen överhettad, stänger ner kamera.</string>
     <string name="camera_server_died">Media-servern dog, stänger ner kamera.</string>
     <string name="camera_unknown_error">Okänt fel, stänger ner kamera.</string>
@@ -418,10 +430,13 @@
     <string name="pref_camera2_mono_only_title">Endast mono</string>
     <string name="pref_camera2_mono_only_entry_on">På</string>
     <string name="pref_camera2_mono_only_entry_off">Av</string>
+    <string name="pref_camera2_mono_preview_title">Mono preview</string>
     <string name="pref_camera2_mono_preview_entry_on">På</string>
     <string name="pref_camera2_mono_preview_entry_off">Av</string>
     <string name="pref_camera2_clearsight_entry_on">På</string>
     <string name="pref_camera2_clearsight_entry_off">Av</string>
+    <string name="clearsight_capture_success">ClearSight capture successful</string>
+    <string name="clearsight_capture_fail">ClearSight capture failed</string>
     <string name="pref_camera2_mpo_title">MPO-format</string>
     <string name="pref_camera2_mpo_entry_on">På</string>
     <string name="pref_camera2_mpo_entry_off">Av</string>
@@ -432,8 +447,10 @@
     <string name="pref_camera2_noise_reduction_entry_off">Av</string>
     <string name="pref_camera2_noise_reduction_entry_fast">Snabb</string>
     <string name="pref_camera2_noise_reduction_entry_high_quality">Hög kvalite</string>
+    <string name="pref_camera2_videosnap_title">Auto snapshot size</string>
     <string name="pref_camera2_videosnap_entry_enable">Aktivera</string>
     <string name="pref_camera2_videosnap_entry_disable">Avaktivera</string>
+    <string name="pref_camera2_trackingfocus_title">Tracking focus</string>
     <string name="pref_camera2_trackingfocus_entry_on">På</string>
     <string name="pref_camera2_trackingfocus_entry_off">Av</string>
     <string name="pref_camera_scenemode_entry_bestpicture">Bästa bild</string>
@@ -453,12 +470,29 @@
     <string name="pref_camera2_saveraw_title">Spara med Rå-format</string>
     <string name="panocapture_direction_is_not_determined">Flytta konstant mot ett håll.</string>
     <string name="panocapture_intro">Tryck på kamera-knapp för att starta.</string>
+    <string name="panocapture_direction_is_changed">Direction has changed, stopping panorama capture\u2026</string>
+    <string name="makeup_ui_title">Choose the strength of the beautification.</string>
     <string name="makeup_ui_ok_button">OK</string>
     <string name="perf_camera2_version_info">Versionsinfo</string>
     <string name="perf_camera2_preferences_category_general">Allmänt</string>
     <string name="perf_camera2_preferences_category_photo">Stillbildskamera</string>
     <string name="perf_camera2_preferences_category_video">Videokamera</string>
     <string name="perf_camera2_preferences_category_system">System</string>
+    <string name="pref_camera2_scene_mode_dual_camera_instructional_content">In dual camera mode, your pictures will be clearer. You can also apply background effects, by editing your dual camera pictures in the Gallery.</string>
+    <string name="pref_camera2_scene_mode_ubi_focus_instructional_content">With UbiFocus, your camera will take five pictures and combine them into one picture, where everything is in focus. You can choose to re-focus, after you take the picture.</string>
+    <string name="pref_camera2_scene_mode_opti_zoom_instructional_content">Use OptiZoom when you want to zoom in for a clear picture. You can zoom before, or after taking the picture.</string>
+    <string name="pref_camera2_scene_mode_sports_instructional_content">Sports mode helps you take better sports or action shots.\n\nImproves your photos, but has no effect on video recording.</string>
+    <string name="pref_camera2_scene_mode_hdr_instructional_content">When you are in mixed lighting conditions such as low light and backlit scenes select \"HDR\" for best possible pictures.</string>
+    <string name="pref_camera2_scene_mode_best_photo_instructional_content">Allows you to take a burst of 10 photos, then you can choose the best one(s).</string>
+    <string name="pref_camera2_scene_mode_chroma_flash_instructional_content">With ChromaFlash, the lighting in your flash photos will be optimized for all of the people and objects in your pictures. This feature applies only to the back camera.</string>
+    <string name="pref_camera2_scene_mode_sharp_photo_instructional_content">Sharp photo reduces blur that is due to motion in the scene, or due to hand motion.</string>
+    <string name="pref_camera2_scene_mode_tracking_focus_instructional_content">Allows you to track and focus a selected person or object while taking pictures or videos. To start, position the focus rectangle on a person or object you want to track.</string>
+    <string name="pref_camera2_scene_mode_time_lapse_instructional_content">With Time lapse, you can transform a long video recording into a few seconds of video. This effect applies to videos, but not photos.</string>
+    <string name="pref_camera2_scene_mode_panorama_instructional_content">Allows you to pan left or right to take a wide landscape photo. You can also pan up or down to take tall photos.</string>
+    <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster reduces blur from shaky hands. It can be helpful when taking photos in difficult places.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">With Pro mode, you can manually control settings for ISO, exposure, white balance, and focus. You will have easy access to all of these advanced settings.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">With DeepZoom mode, you can take a photo at 2x or 4x enhanced zoom.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">With DeepPortrait mode, you can take selfies with a blurred background. You can use the slider to adjust the amount of the blur.</string>
     <string name="pref_camera2_not_show_again">Visa inte igen</string>
     <string name="pref_camera2_scene_mode_instructional_ok">OK</string>
     <string name="pref_camera2_instant_aec_title">Direkt AEC</string>
@@ -519,23 +553,43 @@
     <string name="pref_camera2_zsl_entry_disable">Av</string>
     <string name="pref_camera2_zsl_entry_app_zsl">Mjukvaru-ZSL</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">Hårdvaru-ZSL</string>
+    <string name="pref_camera2_videoencoderprofile_title">Encoder profile</string>
     <string name="pref_camera2_afmode_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_afmode_entry_off">Av</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Continuous video</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Continuous picture</string>
+    <string name="pref_camera2_afmode_entry_edof">Extended depth of focus</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">Byt kamera beroende på ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
+    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Fram</string>
+    <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 and set when pause</string>
     <string name="pref_camera2_eis_entry_disable">Avaktiverad</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">Aktiverad</string>
     <string name="pref_camera2_fovc_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_video_hdr_entry_enable">Aktiverad</string>
     <string name="pref_camera2_video_hdr_entry_disable">Avaktiverad</string>
     <string name="pref_camera2_picture_format_title">Bildformat</string>
+    <string name="pref_camera2_stats_visualizer_title">Statistics visualizer</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Hist statistics</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
+    <string name="pref_camera2_capture_mfnr_title">Multi-frame noise reduction</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Aktiverad</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Avaktiverad</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Aktiverad</string>
     <string name="pref_camera2_fs2_entry_disable">Avaktiverad</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Aktiverad</string>
     <string name="pref_camera2_abort_captures_entry_disable">Avaktiverad</string>
 </resources>

@@ -50,6 +50,7 @@
     <string name="pref_camera_audioencoder_title">Codec audio</string>
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+    <string name="pref_camera_skinToneEnhancement_default">disable</string>
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <string name="pref_camera_skinToneEnhancement_title">Îmbunătățire ton piele</string>
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -179,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_title">AE bracketing</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">Activat</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Off</string>
     <string name="err_app_unsupport_ae_bracket_code">AE bracketing nu este acceptat momentan</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">Dimensiunea instantaneului video este mai mică decât dimensiunea video, plafonând la dimensiunea video-ului. Vă rugăm selectați o rezoluție mai mare sau egală cu dimensiunea video curentă.</string>
@@ -557,6 +559,7 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Video continuu</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Poză continuă</string>
     <string name="pref_camera2_afmode_entry_edof">Focus adâncime extins</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">Comutatare cameră prin ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -564,6 +567,9 @@
     <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
     <string name="pref_camera2_initial_camera_entry_front">Frontal</string>
     <string name="pref_camera2_eis_title">EIS video</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 and set when pause</string>
     <string name="pref_camera2_eis_entry_disable">Dezactivat</string>
     <string name="pref_camera2_fovc_title">FOVC video</string>
     <string name="pref_camera2_fovc_entry_enable">Activat</string>
@@ -575,11 +581,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Statistici BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Statistici BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Statistici Hist</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
     <string name="pref_camera2_capture_mfnr_title">Reducere zgomot multi-cadru</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Activat</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Dezactivat</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Activat</string>
     <string name="pref_camera2_fs2_entry_disable">Dezactivat</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Activat</string>
     <string name="pref_camera2_abort_captures_entry_disable">Dezactivat</string>
 </resources>

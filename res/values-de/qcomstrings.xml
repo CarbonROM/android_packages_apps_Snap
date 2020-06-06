@@ -559,6 +559,7 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Fortlaufendes Video</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Serienbild</string>
     <string name="pref_camera2_afmode_entry_edof">Erweiterte Tiefenschärfe</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">Kamera nach ID wechseln</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->

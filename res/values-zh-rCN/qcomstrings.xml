@@ -559,6 +559,7 @@
     <string name="pref_camera2_afmode_entry_continuous_video">连拍视频</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">连拍图片</string>
     <string name="pref_camera2_afmode_entry_edof">景深扩展</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">通过 ID 切换相机</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -580,11 +581,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG 统计</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">BE 统计</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">直方图统计</string>
+    <string name="stats_visualizer_bg_label">BG视图</string>
+    <string name="stats_visualizer_be_label">BE视图</string>
     <string name="pref_camera2_capture_mfnr_title">多帧降噪</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">已启用</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">已禁用</string>
+    <string name="pref_camera2_fs2_title">高速快门</string>
     <string name="pref_camera2_fs2_entry_enable">已启用</string>
     <string name="pref_camera2_fs2_entry_disable">已禁用</string>
+    <string name="pref_camera2_abort_captures_title">取消保存</string>
     <string name="pref_camera2_abort_captures_entry_enable">已启用</string>
     <string name="pref_camera2_abort_captures_entry_disable">已禁用</string>
 </resources>

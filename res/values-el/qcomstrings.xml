@@ -559,6 +559,7 @@
     <string name="pref_camera2_afmode_entry_continuous_video">Συνεχής (βίντεο)</string>
     <string name="pref_camera2_afmode_entry_continuous_picture">Συνεχής (εικόνα)</string>
     <string name="pref_camera2_afmode_entry_edof">Εκτεταμένο βάθος εστίασης</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">Εναλλαγή κάμερας με βάση το ID</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
@@ -580,11 +581,15 @@
     <string name="pref_camera2_stats_visualizer_entry_bg_stats">Στατιστικά BG</string>
     <string name="pref_camera2_stats_visualizer_entry_be_stats">Στατιστικά BE</string>
     <string name="pref_camera2_stats_visualizer_entry_hist_stats">Στατιστικά Hist</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
     <string name="pref_camera2_capture_mfnr_title">Μείωση θορύβου πολλαπλών καρέ</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">Ενεργός</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">Ανενεργός</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">Ενεργός</string>
     <string name="pref_camera2_fs2_entry_disable">Ανενεργός</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">Ενεργός</string>
     <string name="pref_camera2_abort_captures_entry_disable">Ανενεργός</string>
 </resources>

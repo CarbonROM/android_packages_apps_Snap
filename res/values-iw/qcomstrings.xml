@@ -50,6 +50,7 @@
     <string name="pref_camera_audioencoder_title">קידוד שמע</string>
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
+    <string name="pref_camera_skinToneEnhancement_default">disable</string>
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <string name="pref_camera_skinToneEnhancement_title">שיפור גוון עור</string>
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
@@ -78,6 +79,7 @@
     <string name="pref_camera_manual_exp_entry_ISO_priority">עדיפות ISO</string>
     <string name="pref_camera_manual_exp_entry_exptime_priority">עדיפות זמן החשיפה</string>
     <string name="pref_camera_manual_exp_entry_user_setting">הגדרת המשתמש</string>
+    <string name="pref_camera_manual_exp_entry_gains_priority">Gains priority</string>
     <string name="pref_camera_manual_exp_entry_off">כבוי</string>
     <!-- Manual white balance entry values -->
     <string name="pref_camera_manual_wb_title">איזון לבן ידני</string>
@@ -178,6 +180,7 @@
     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_title">תיחום חשיפה אוטומטי</string>
     <string name="pref_camera_ae_bracket_hdr_entry_on">מופעל</string>
+    <string name="pref_camera_ae_bracket_hdr_entry_off">Off</string>
     <string name="err_app_unsupport_ae_bracket_code">תיחום חשיפה אוטומטית (AEB) אינו נתמך עדיין</string>
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
     <string name="snapshot_lower_than_video">גודל הוידאו נמוך יותר מאשר גודל הוידאו האפשרי. נא בחר ברזולוציה גבוהה או שווה לגודל הווידאו הנוכחי.</string>
@@ -194,10 +197,12 @@
     <string name="pref_camera_hfr_entry_3x">הילוך איטי - 90 פריימים/שנייה</string>
     <string name="pref_camera_hfr_entry_4x">הילוך איטי - 120 פריימים/שנייה</string>
     <string name="pref_camera_hfr_entry_8x">הילוך איטי - 240 פריימים/שנייה</string>
+    <string name="pref_camera_hfr_entry_16x">Slow motion 480 FPS</string>
     <string name="pref_camera_hfr_entry_hsr_60">מהירות גבוהה - 60 פריימים/שנייה</string>
     <string name="pref_camera_hfr_entry_hsr_90">מהירות גבוהה - 90 פריימים/שנייה</string>
     <string name="pref_camera_hfr_entry_hsr_120">מהירות גבוהה - 120 פריימים/שנייה</string>
     <string name="pref_camera_hfr_entry_hsr_240">מהירות גבוהה - 240 תמונות לשנייה</string>
+    <string name="pref_camera_hfr_entry_hsr_480">High speed 480 FPS</string>
     <!-- HFR entry values. Do not translate. -->
     <!-- Default noise reduction setting. Do not translate. -->
     <!-- Settings screen, Select See More title -->
@@ -485,6 +490,9 @@
     <string name="pref_camera2_scene_mode_time_lapse_instructional_content">עם כיווץ זמן, אפשר לכווץ סרטון ארוך לכמה שניות. האפקט חל על סרטונים בלבד כמובן.</string>
     <string name="pref_camera2_scene_mode_panorama_instructional_content">מאפשר להזיז ימינה או שמאלה לצילום תמונה ארוכה יותר. אפשר גם להזיז למעלה או למטה.</string>
     <string name="pref_camera2_scene_mode_blur_buster_instructional_content">BlurBuster מפחית את הטשטוש הנגרם מידיים רועדות. זה יכול להיות שימושי כשמצלמים תמונות במקומות קשים.</string>
+    <string name="pref_camera2_scene_mode_pro_instructional_content">With Pro mode, you can manually control settings for ISO, exposure, white balance, and focus. You will have easy access to all of these advanced settings.</string>
+    <string name="pref_camera2_scene_mode_deepzoom_instructional_content">With DeepZoom mode, you can take a photo at 2x or 4x enhanced zoom.</string>
+    <string name="pref_camera2_scene_mode_deepportrait_instructional_content">With DeepPortrait mode, you can take selfies with a blurred background. You can use the slider to adjust the amount of the blur.</string>
     <string name="pref_camera2_not_show_again">אל תציג שוב</string>
     <string name="pref_camera2_scene_mode_instructional_ok">אישור</string>
     <string name="pref_camera2_instant_aec_title">AEC מהיר</string>
@@ -545,24 +553,43 @@
     <string name="pref_camera2_zsl_entry_disable">כבוי</string>
     <string name="pref_camera2_zsl_entry_app_zsl">ZSL (צילום ללא שהייה) תוכנתי</string>
     <string name="pref_camera2_zsl_entry_hal_zsl">ZSL (צילום ללא שהייה) חומרתי</string>
+    <string name="pref_camera2_videoencoderprofile_title">Encoder profile</string>
     <string name="pref_camera2_afmode_entry_disable">מושבת</string>
     <string name="pref_camera2_afmode_entry_off">כבוי</string>
+    <string name="pref_camera2_afmode_entry_continuous_video">Continuous video</string>
+    <string name="pref_camera2_afmode_entry_continuous_picture">Continuous picture</string>
+    <string name="pref_camera2_afmode_entry_edof">Extended depth of focus</string>
+    <string name="pref_camera2_exposure_metering_default">1</string>
     <string name="pref_camera2_switch_camera_title">החלף למצלמה על ידי מזהה</string>
     <!-- QCFA Title -->
     <!-- QCFA choices -->
     <string name="pref_camera2_initial_camera_entry_bayer">באייר</string>
     <string name="pref_camera2_initial_camera_entry_mono">מונוכרום</string>
     <string name="pref_camera2_initial_camera_entry_front">קדמית</string>
+    <string name="pref_camera2_eis_title">Video EIS</string>
+    <string name="pref_camera2_eis_entry_v2enable">V2</string>
+    <string name="pref_camera2_eis_entry_v3enable">V3</string>
+    <string name="pref_camera2_eis_entry_v3_set_when_pause">V3 and set when pause</string>
     <string name="pref_camera2_eis_entry_disable">מושבת</string>
+    <string name="pref_camera2_fovc_title">Video FOVC</string>
     <string name="pref_camera2_fovc_entry_enable">מופעל</string>
     <string name="pref_camera2_fovc_entry_disable">מושבת</string>
     <string name="pref_camera2_video_hdr_entry_enable">מופעל</string>
     <string name="pref_camera2_video_hdr_entry_disable">מושבת</string>
     <string name="pref_camera2_picture_format_title">פורמט תמונה</string>
+    <string name="pref_camera2_stats_visualizer_title">Statistics visualizer</string>
+    <string name="pref_camera2_stats_visualizer_entry_bg_stats">BG statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_be_stats">BE statistics</string>
+    <string name="pref_camera2_stats_visualizer_entry_hist_stats">Hist statistics</string>
+    <string name="stats_visualizer_bg_label">BG graph view</string>
+    <string name="stats_visualizer_be_label">BE graph view</string>
+    <string name="pref_camera2_capture_mfnr_title">Multi-frame noise reduction</string>
     <string name="pref_camera2_capture_mfnr_entry_enable">מופעל</string>
     <string name="pref_camera2_capture_mfnr_entry_disable">מושבת</string>
+    <string name="pref_camera2_fs2_title">Fast shutter</string>
     <string name="pref_camera2_fs2_entry_enable">מופעל</string>
     <string name="pref_camera2_fs2_entry_disable">מושבת</string>
+    <string name="pref_camera2_abort_captures_title">Abort captures</string>
     <string name="pref_camera2_abort_captures_entry_enable">מופעל</string>
     <string name="pref_camera2_abort_captures_entry_disable">מושבת</string>
 </resources>
